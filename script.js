@@ -40,3 +40,10 @@ function changeQuantity(element, increment) {
 }
 
 updatePrices(); // call updatePrices after defining the functions
+
+function checkoutBtn() {
+  var pric = Number(document.getElementById("OverallTotalPrice").value);
+  var a = pric / 276;
+  var b = document.getElementById("Tqty").value;
+  window.location.href = "order.php?t1=" + a.toFixed(2) + "&t2=" + b;
+}
