@@ -103,7 +103,11 @@
                         }
                     }
                     ?>
-
+                     <tr>
+                        <td colspan="8">
+                            <a class="btn btn-primary" id="checkoutBtn" onclick="checkoutBtn()">Ckeckout</a>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
 
